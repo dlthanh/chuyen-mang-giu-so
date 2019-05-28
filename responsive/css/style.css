@@ -1,0 +1,247 @@
+.mobile {
+    display: none;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+.w660 {
+    width: 660px;
+    margin: 0 auto;
+}
+.w450 {
+    width: 450px!important;
+    margin: 0 auto;
+}
+.emag-wrapper {
+    /* background-color: #fbf3e4; */
+}
+/* .emag-cover {
+    padding-top: 44px;
+    background-color: #000;
+} */
+.emag-cover img {
+    width: 100%;
+}
+.emag-sapo {
+    margin: -50px auto 60px;
+}
+.emag-sapo img {
+    width: 100%;
+}
+.emag-quote {
+    margin-top: -120px;
+}
+.emag-quote-head {
+    font-family: 'Gotham', sans-serif;
+    font-size: 30px;
+    color: #343434;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+.emag-quote-head span {
+    display: inline-block;
+}
+.emag-quote-head span::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #665f5d;
+}
+.emag-quote-text {
+    font-family: 'NotoSerif', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px
+}
+.emag-title {
+    margin-bottom: 60px;
+}
+.emag-content p {
+    font-family: 'NotoSerif', serif;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.emag-content p.bold {
+    font-weight: 700;
+}
+.emag-content img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.emag-content-left::after,
+.emag-content-right::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.emag-content-left img {
+    float: right;
+    margin-left: 20px;
+    margin-right: -160px;
+    margin-top: 6px;
+}
+.emag-content-right img {
+    float: left;
+    margin-right: 20px;
+    margin-left: -160px;
+    margin-top: 6px;
+}
+.emag-fullwidth {
+    background-color: #231b51;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.emag-fullwidth p {
+    color: #dddddd;
+}
+.emag-two-column {
+    display: flex;
+    justify-content: space-between
+}
+.emag-column-left {
+    width: 465px;
+}
+.emag-column-right {
+    width: 475px;
+}
+.emag-credit {
+    margin: 60px auto;
+}
+.emag-credit p {
+    margin-bottom: 0;
+    font-family: 'Gotham', sans-serif;
+}
+.emag-column::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.emag-column img {
+    width: 488px;
+    height: 324px;
+    float: left;
+}
+.emag-column img:last-child {
+    margin-left: 4px;
+}
+
+@media (max-width: 992px) {
+    .mobile {
+        display: block;
+    }
+    .web {
+        display: none;
+    }
+
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    img {
+        vertical-align: middle;
+    }
+    .emag-wrapper {
+        /* background-color: #fbf3e4; */
+    }
+    /* .emag-cover {
+        padding-top: 46px;
+        background-color: #000;
+    } */
+    .emag-cover img {
+        width: 100%;
+    }
+    .emag-sapo {
+        margin: -1px auto 50px;
+    }
+    .emag-sapo img {
+        width: 100%;
+    }
+    .emag-quote {
+        background-color: #ffe2d9;
+        padding: 40px 15px 1px;
+    }
+    .emag-quote-head {
+        font-family: 'Gotham', sans-serif;
+        font-size: 30px;
+        color: #343434;
+        text-transform: uppercase;
+        margin-bottom: 30px
+    }
+    .emag-quote-head span {
+        display: inline-block;
+    }
+    .emag-quote-head span::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #665f5d;
+    }
+    .emag-quote-text {
+        font-family: 'NotoSerif', serif;
+        font-style: italic;
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 30px
+    }
+    .emag-title {
+        margin: 30px auto 0;
+    }
+    .emag-title img {
+        width: 100%;
+    }
+    .emag-content {
+        padding: 0 15px;
+    }
+    .emag-content p {
+        font-family: 'NotoSerif', serif;
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .emag-content p.bold {
+        font-weight: 700;
+    }
+    .emag-main img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .emag-fullwidth {
+        background-color: #231b51;
+        margin-top: 60px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    .emag-fullwidth p {
+        color: #dddddd;
+    }
+    .emag-credit {
+        margin-top: 90px;
+        padding-left: 15px;
+    }
+    .emag-credit p {
+        font-size: 14px;
+        margin-bottom: 0;
+        font-family: 'Gotham', sans-serif;
+    }
+}
